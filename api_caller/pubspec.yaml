@@ -2,6 +2,8 @@ name: flutter_api_caller
 description: A lightweight, production-ready, extensible HTTP networking client for Dart and Flutter applications.
 version: 0.2.0
 homepage: https://github.com/example/flutter_api_caller
+repository: https://github.com/Gourav-sharma/flutter_api_caller
+issue_tracker: https://github.com/Gourav-sharma/flutter_api_caller/issues
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
