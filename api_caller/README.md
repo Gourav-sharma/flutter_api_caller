@@ -293,27 +293,6 @@ class AppHeaderInterceptor extends NetworkInterceptor {
 
 ---
 
-## Testing & Mocking
-
-Unit test network calls using `MockNetworkTransport`:
-
-```dart
-final mockTransport = MockNetworkTransport();
-mockTransport.enqueueJsonResponse({'id': 1, 'name': 'Alice'});
-
-final client = NetworkClient(baseUrl: 'https://api.example.com', transport: mockTransport);
-final response = await client.get('/user');
-expect(response.data['name'], 'Alice');
-```
-
----
-
-## Migration Guide from Version 0.1
-
-Version 0.2.0 is **100% backward compatible** with Version 0.1.0! All existing constructors, request parameters, response models, transport classes, and exceptions continue to function unchanged.
-
----
-
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
