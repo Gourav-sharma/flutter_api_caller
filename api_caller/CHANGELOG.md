@@ -2,6 +2,12 @@
 
 All notable changes to `flutter_api_caller` will be documented in this file.
 
+## 0.3.0
+
+### Changed
+- Streamlined documentation in `README.md`.
+- Removed legacy migration guide and testing section snippets.
+
 ## 0.2.0
 
 ### Added

@@ -23,8 +23,6 @@ An advanced, production-ready, highly extensible HTTP networking ecosystem for D
 - [Typed Exceptions Hierarchy](#typed-exceptions-hierarchy)
 - [Pipeline Interceptors](#pipeline-interceptors)
 - [Security-First Logging](#security-first-logging)
-- [Testing & Mocking](#testing--mocking)
-- [Migration Guide from Version 0.1](#migration-guide-from-version-01)
 - [License](#license)
 
 ---
